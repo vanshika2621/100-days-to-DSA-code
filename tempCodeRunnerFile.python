@@ -1,0 +1,6 @@
+# file handing 
+
+#saving a dictornery in a text file 
+with open("my_dict.txt", "w") as file:
+    my_dict = {"name": "Alice", "age": 30, "city": "New York"}
+    file.write(str(my_dict)) 
